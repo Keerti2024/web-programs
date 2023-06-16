@@ -1,0 +1,31 @@
+<!--Write a JavaScript that calculates the squares and cubes of the numbers from 0 to 20 and outputs HTML text that displays the resulting values in an HTML table format. -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Squares and Cubes</title>
+    <style>
+        tr{
+            background-color: rgb(191, 196, 194);
+        }
+        td{
+            color:black;
+        }
+    </style>
+</head>
+<body>
+	<table border="1" align="center">
+		<tr>
+			<td>Number</td>
+			<td>Square</td>
+			<td>Cubes</td>
+		</tr>
+		<script type="text/javascript">
+			for(var i=0;i<=20;i++)
+			{
+		document.write("<tr align='center'><td>" + i + "</td><td>" + i*i +"</td><td>" + i*i*i + "</td></tr>")
+			}
+
+		</script>
+	</table>
+</body>
+</html>
